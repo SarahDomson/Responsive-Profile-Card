@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/image/favicon-32x32.png" type="image/x-icon">
+  <meta property="og:title" content="Sarah Domson - Frontend Developer Portfolio">
+  <meta property="og:description" content="Explore the profile card of Sarah Domson, a skilled frontend developer with a focus on creating responsive and user-friendly websites.">
+  <meta property="og:image" content="./image/Sarah_logo">
+  <meta property="og:url" content="https://github.com/SarahDomson/portfolio">
+  <meta property="og:type" content="website">
+<!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sarah Domson - Frontend Developer Profile Crad">
+  <meta name="twitter:description" content="Portfolio showcasing the projects and skills of Sarah Domson, a frontend developer.">
+  <meta name="twitter:image" content="./image/Sarah_logo">
+  <!-- GitHub Profile -->
+  <meta property="profile:username" content="Sarah Domson">
+  <meta property="og:see_also" content="https://github.com/SarahDomson">
+  <!-- LinkedIn Profile -->
+  <meta property="og:see_also" content="https://www.linkedin.com/in/sarah-domson-5749661a9/"">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="profile-card">
+    
+    <img src="/image/Profile.svg.jpg" alt="Profile Picture" data-testid="profilePicture" class="profile-picture">
+
+    <h1 data-testid="fullName">Sarah Domson</h1>
+
+    <p data-testid="jobTitle" class="job-title">Frontend Developer</p>
+
+    <p data-testid="shortBio">
+        Passionate frontend developer skilled in JavaScript, React, and Tailwind CSS. 
+        Dedicated to creating accessible and responsive web applications.
+    </p>
+
+    <p data-testid="currentLocation" class="location">Accra, Ghana</p>
+
+    <p data-testid="emailAddress" class="email">sarahdomson26@gmail.com</p>
+
+    <div data-testid="socialLinks" class="social-links">
+      <a href="https://linkedin.com/in/sarahdomson" target="_blank">LinkedIn</a>
+      <a href="https://github.com/sarahdomson" target="_blank">GitHub</a>
+      <a href="https://x.com/Ama_Domson" target="_blank">Twitter</a>
+    </div>
+
+    <p data-testid="currentTimeUTC" class="utc-time">Current UTC Time: <span id="utcTime"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
